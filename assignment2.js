@@ -13,13 +13,13 @@ function launchBrowser(browserName)
 function runTest(testType) {
 
     switch (testType) {
-    case "Smoke":
+    case "smoke":
         console.log("smoke tests");
         break;   
-    case "Sanity":
+    case "sanity":
         console.log("Sanity tests ");
         break;
-    case "Regression":
+    case "regression":
         console.log("Regression tests");
         break;
 
@@ -32,10 +32,11 @@ function runTest(testType) {
 
 //Function Calls:
 launchBrowser("chrome");
-runTest("Smoke");
-runTest("Sanity");
-runTest("Regression");
+runTest("smoke");
+runTest("sanity");
+runTest("regression");
 runTest();
+
 
 
 
